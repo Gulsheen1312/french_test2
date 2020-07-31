@@ -1,0 +1,143 @@
+img{
+  height: 300px;
+  width: 300px;
+  margin-left: 38%;
+}
+body {
+  font-size: 30px;
+  font-style: oblique;
+}
+table ,th, td{
+  border: 1px solid black;
+}
+.b1{
+  margin-left: 830px;
+  margin-top: 35px;
+}
+.b2{
+  margin-left: 320px;
+  margin-top: 50px;
+}
+.b3{
+  margin-left: 850px;
+}
+.b4{
+margin-left: 320px;
+}
+.b5{
+margin-left: 850px;
+}
+.b6{
+margin-left: 320px;
+}
+.b7{
+margin-left: 320px;
+margin-top: 40px;
+}
+.b8{
+margin-left: 850px;
+}
+.b9{
+margin-left: 850px;
+margin-top: 80px;
+}
+.b10{
+margin-left: 850px;
+margin-top: 35px;
+}
+.b11{
+margin-left: 320px;
+margin-top: 100px;
+}
+.b12{
+margin-left: 850px;
+margin-top: 20px;
+}
+.b13{
+margin-left: 330px;
+}
+.b14{
+margin-left: 320px;
+margin-top: 50px;
+}
+.b15{
+margin-left: 320px;
+margin-top: 90px;
+}
+.b16{
+margin-left: 320px;
+margin-top:40px;
+}
+.bodyparts{
+  height: 1000px;
+  position: absolute;
+  margin-right: 100px;
+}
+.parts{
+  position: relative;
+}
+
+.sub{
+  font-size: 40px;
+  margin-left: 45%;
+}
+/* timer */
+/* Sets the containers height and width */
+#app{
+  font-family: sans-serif;
+  display: grid;
+  place-items: center;
+}
+
+.base-timer {
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+.base-timer__svg {
+  transform: scaleX(-1);
+}
+
+.base-timer__circle {
+  fill: none;
+  stroke: none;
+}
+
+.base-timer__path-elapsed {
+  stroke-width: 7px;
+  stroke: grey;
+}
+
+.base-timer__path-remaining {
+  stroke-width: 7px;
+  stroke-linecap: round;
+  transform: rotate(90deg);
+  transform-origin: center;
+  transition: 1s linear all;
+  fill-rule: nonzero;
+  stroke: currentColor;
+}
+
+.base-timer__path-remaining.green {
+  color: rgb(65, 184, 131);
+}
+
+.base-timer__path-remaining.orange {
+  color: orange;
+}
+
+.base-timer__path-remaining.red {
+  color: red;
+}
+
+.base-timer__label {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 48px;
+}
